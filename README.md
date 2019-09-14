@@ -4,7 +4,7 @@
 
 - Clone project: https://github.com/jakett/java-capillary-server-docker.git
 - Install docker, switch to linux container
-- Build image: "docker build -t <image-name> ."
-- Run container: "docker run -i -t -d --name <container-name> -p 8443:8443 <image-name>"
+- Build image: "docker build -t image-name ."
+- Run container: "docker run -i -t -d --name container-name -p 8443:8443 image-name"
 - Run android and ios client to connect server
 
