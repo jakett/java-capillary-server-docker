@@ -1,0 +1,6 @@
+docker run -i -t -d --name demo39 -p 8443:8443 test-server
+
+docker exec -it c164ceec929d /bin/bash
+
+Remove CRLF window-ubuntu
+sed -i -e 's/\r$//' run.sh
